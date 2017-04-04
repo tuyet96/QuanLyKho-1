@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e64b5f05474546c3b7d5345ae5f5af1c" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Hang_Hoa" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Kho_Chua" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Loai_SP" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Nha_Cung_Cap" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Phieu_Nhap" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Phieu_Nhap_Hang_Hoa" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Phieu_Xuat" Width="1.5" PointX="6" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Phieu_Xuat_Kho_Chua" Width="1.5" PointX="8.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Table_Role" Width="1.5" PointX="5.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Table_User" Width="1.5" PointX="5.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.UserProfile" Width="1.5" PointX="8" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.UserRole" Width="1.5" PointX="8" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK__Hang_Hoa__Ma_Loa__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Phieu_Nha__Hang___300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Phieu_Xua__Hang___398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_LSP_NCC_KC" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Phieu_Nha__Phieu__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Phieu_Xua__Phieu__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UR_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__UserProfi__UserI__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UR_USer" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.Loai_SP_Nha_Cung_Cap" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
